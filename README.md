@@ -1,22 +1,38 @@
 # SCT_ML_2
 # 🛍️ Task 2 - Retail Store Customer Segmentation (K-Means Clustering)
-This project implements a K-Means clustering model to segment retail store customers based on their purchase patterns. By analyzing factors like annual income and spending score, the model groups customers into distinct clusters to help understand their shopping behavior and preferences.
+## 🛍️ Retail Customer Clustering using K-Means
 
-## 📘 Overview
-This project groups retail store customers into clusters using **K-Means Clustering**, based on their purchase history.
+This project uses the K-Means Clustering Algorithm to segment customers of a retail store based on their purchase history.
+The goal is to help businesses understand customer groups and target them effectively through data-driven insights.
 
-## 🚀 Features
-- Upload your own CSV file  
-- Choose which features to cluster  
-- Visualize clusters interactively  
+## 🚀 Live App
+
+🔗 Link : https://nishchita-customer-clustering.streamlit.app/
 
 ## 🧠 Tech Stack
-- Python  
-- Scikit-learn  
-- Pandas  
-- Streamlit  
-- Seaborn, Matplotlib  
 
-## 🖥️ Run Locally
-```bash
-streamlit run app.py
+Python
+
+Pandas
+
+NumPy
+
+Scikit-learn
+
+Matplotlib / Seaborn
+
+Streamlit
+
+## 📊 Features
+
+Performs K-Means clustering on purchase history
+
+Visualizes clusters using scatter plots
+
+Allows interactive parameter tuning (number of clusters, features, etc.)
+
+Generates customer segments for business insights
+
+ ## 👩‍💻 Author
+
+Developed by Nishchitha N
